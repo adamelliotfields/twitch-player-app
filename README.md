@@ -7,7 +7,7 @@ Watch live streams and search for new streams from the comfort of my app.
 
 ### Live Demo
 
-[index.html](https://adamelliotfields.github.io/free-code-camp/front-end-development/7-twitch-player/index.html)
+[index.html](https://adamelliotfields.github.io/twitch-player-app/index.html)
 
 
 ### Libraries
@@ -22,6 +22,10 @@ Watch live streams and search for new streams from the comfort of my app.
 
 
 ### Notes
+
+*This is a clone of [adamelliotfields/free-code-camp/front-end-development/7-twitch-player](https://github.com/adamelliotfields/free-code-camp/tree/master/front-end-development/7-twitch-player).*
+
+*This app was coded from scratch, start-to-finish, and was not based off of any tutorial.*
 
 The requirements of this project were to sort and display Twitch streamers based on their status (online, offline, or non-existent) and also include a link to their channel.
 
