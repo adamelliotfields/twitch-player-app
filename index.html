@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Adam Fields">
+    <meta name="description" content="Streamer search for Twitch.tv">
+    <meta name="keywords" content="html,css,bootstrap,javascript,jquery">
+    <title>Twitch Stream Player</title>
+    <link rel="icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="font/dosis/dosis.css" >
+    <link rel="stylesheet" type="text/css" href="font/roboto/roboto.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap-4.0.0-alpha.6.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="lib/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="lib/js/tether-1.4.0.min.js"></script>
+    <script type="text/javascript" src="lib/js/bootstrap-4.0.0-alpha.6.min.js"></script>
+  </head>
+  <body>
+    <div class="container mt-md-4 mt-lg-5" id="main">
+      <div class="text-center">
+        <img src="img/twitch-logo.png">
+        <h1>Stream Player</h1>
+      </div>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#online">Online</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#offline">Offline</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#search">Search</a>
+        </li>
+        <li class="nav-item">
+          <form>
+            <input class="form-control" type="text">
+          </form>
+        </li>
+      </ul>
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="online"></div>
+        <div class="tab-pane" id="offline"></div>
+        <div class="tab-pane" id="search"></div>
+      </div>
+    </div><!-- container ends here -->
+    <footer class="footer">
+      <div class="container">
+        <span>Powered by <a href="https://dev.twitch.tv">Twitch</a></span>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
